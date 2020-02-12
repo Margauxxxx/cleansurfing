@@ -1,0 +1,238 @@
+.shops{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+padding: 50px;
+margin-left: 200px;
+
+}
+
+.shop{
+    align-items: center;
+  justify-content: space-between;
+    padding: 20px;
+    padding: 30px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    margin: 10px 0px;
+    justify-content: space-around;
+    align-self: center;
+    width: 350px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+.shop title{
+font-family: Oswald;
+font-weight: normal;
+font-style: normal;
+margin-left: 20px;
+margin-right: 20px;
+margin: 0 auto 15px 0;
+text-align: center;
+margin-bottom: 30px;
+margin-top: 0px;
+
+}
+
+.shop img{
+  border-radius: 3px;
+  width: 250px;
+  height: 200px;
+  align-items: center;
+  margin-bottom: 2px;
+  margin: 0 auto 15px 0;
+  margin-left: 20px;
+
+ }
+
+ .titre{
+    font-family: Oswald;
+font-weight: normal;
+font-style: normal;
+margin: 0 auto 15px 0;
+text-align: center;
+margin-bottom: 30px;
+margin-top: 10px;
+
+ }
+
+.shop h2{
+    h2, .h2, h2.title {
+    font-family: Oswald;
+    align-items: center;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #333333;
+    display: block;
+    letter-spacing: 3px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 0.75em;
+    margin-top:10px;
+    text-align: center;
+    float: left;
+    margin: 0 10px 10px;
+    position: relative;
+}
+}
+}
+.head{
+font-family: Oswald;
+align-items: center;
+font-weight: normal;
+text-align: center;
+float: left;
+}
+
+
+.head h1{
+text-align: center;
+    font-size: 52px;
+    margin: 0 50px 10px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.head p{
+font-family: Oswald;
+font-weight: lighter;
+font-size: 16px;
+margin: 0 30px 10px;
+
+
+
+}
+
+
+div.container {
+    margin: 10 auto;
+    align-content: center;
+    padding: 30px 0;
+    display: flex;
+    margin-right: 250px;
+flex-wrap: wrap;
+}
+
+
+fh2, .h2, h2.title {
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #333333;
+    display: block;
+    letter-spacing: 3px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 0.75em;
+    align-content: center;
+
+}
+
+
+.border-style--none text-align--left{
+margin: 0 auto;
+    padding: 20px 0;
+content: "\0020";
+    display: inline-flex;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    display: flex;
+flex-wrap: wrap;
+}
+
+.text-columns-with-images-section h2.title+.feature_divider {
+    margin-bottom: 40px;
+}
+
+.feature_divider {
+    width: 100%;
+    margin-bottom: 20px;
+display: flex;
+flex-wrap: wrap;
+    border: 0;
+    border-color: #aaaaaa;
+    border-bottom-width: thinpx;
+    border-bottom-style: solid;
+}
+
+.text-align--left {
+    text-align: left;
+}
+
+img[data-sizes="auto"] {
+    display: table;
+    width: 400px;
+    height: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+flex-wrap: wrap;
+}
+
+.blur-up.lazyloaded {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+}
+h3, .h3 {
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #333333;
+    display: block;
+    letter-spacing: 3px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto 15px 0;
+}
+
+
+.border-style--none text-align--left{
+    display: block;
+}
+
+.involvement{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-left: 200px;
+}
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .shop {
+    width: 700px;
+    }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .shops {
+    width: 500px;
+    }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .shops {
+    width: 300px;
+    }
+ }

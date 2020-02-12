@@ -1,0 +1,61 @@
+.btn-blue{
+
+  background-color: #30D0D3;
+  padding: 15px 20px;
+  border-radius: 5px;
+  width: 34px;
+  height: 20px;
+  color: white;
+  margin: 20 auto;
+  object-position: center;
+  font-weight: lighter;
+  font-family: 'Oswald', sans-serif;
+  line-height: .9em;
+  margin-top: .18em;
+  line-height: .8em;
+  margin-right: 1em;
+  margin-left: 5em;
+  touch-action: manipulation;
+
+}
+
+.btn-transparent{
+  background-color: rgba(255,255,255,0);
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  transition: background-color 0.2s linear, color 0.2s linear;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin:
+  width: 30px;
+  height: 20px;
+  color: white;
+  margin-left: .9em;
+  object-position: center;
+  font-weight: lighter;
+  font-size: 40;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+
+
+.btn-blue-transparent{
+  background-color: rgba(255,255,255,0);
+  color: #ffffff;
+  border: 1px solid #30D0D3;
+  transition: background-color 0.2s linear, color 0.2s linear;
+  padding: 1px 15px;
+  border-radius: 5px;
+  height: 10px;
+  color: #30D0D3;
+  object-position: center;
+  font-weight: lighter;
+  font-size: 40;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.action_button sign_up{
+  margin-left: 100px;
+}
